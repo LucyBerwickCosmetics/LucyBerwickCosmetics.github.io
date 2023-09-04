@@ -17,7 +17,6 @@ async function getExamples() {
 
 async function displayExamples(exampleData){
     exampleData.forEach(res => {
-        console.log(res.image);
         const column = document.createElement("div");
         column.className="col mb-3";
         column.innerHTML =
